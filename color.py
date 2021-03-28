@@ -13,6 +13,8 @@ color_dict = {
     'END': '\033[0m'
 }
 
+
+#This outputs a text in that color
 def color_text(string,color):
     colored_text = color_dict[color.upper()] + string + color_dict['END']
     return colored_text
